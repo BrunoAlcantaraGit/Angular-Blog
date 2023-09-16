@@ -1,0 +1,10 @@
+.container_rigth_card{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  padding: 20px;
+}
+

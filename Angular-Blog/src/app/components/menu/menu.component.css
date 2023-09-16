@@ -1,0 +1,24 @@
+.container__menu{
+  margin-top:5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.list li{
+  padding: 10px;
+  margin: 10px 5px 15px 10px;
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(211, 214, 17);
+  transition: 0.7s;
+}
