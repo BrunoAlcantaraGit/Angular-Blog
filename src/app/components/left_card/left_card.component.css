@@ -1,5 +1,5 @@
 
-.container_card{
+.container-left-card{
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -8,13 +8,14 @@
   padding: 20px;
 }
 
-.container_card h1{
+.container-left-card h1{
   padding:50px 0px 10px 65px;
-  font-size: 45px;
+  font-size: 52px;
 }
 
-.container_card p{
+.container-left-card p{
   padding:10px 0px 50px 65px;
+  text-align: justify;
 }
 button{
 
