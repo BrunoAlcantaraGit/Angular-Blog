@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-left-card',
-  templateUrl: './left-card.component.html',
-  styleUrls: ['./left-card.component.css']
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.css']
 })
 export class LeftCardComponent {
 
