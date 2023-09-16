@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class RightCardComponent {
 
+
+listItens:string []=['iten1','iten2','iten3', 'iten4','iten5', 'iten6'];
+
+
 }
