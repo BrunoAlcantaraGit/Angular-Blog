@@ -8,10 +8,9 @@ import { LeftCardComponent } from './components/home/left_card/left_card.compone
 import { RightCardComponent } from './components/home/right-card/right-card.component';
 import { ProductComponent } from './components/menu/product/product.component';
 import {HomeComponent} from './components/home/home.component';
-import { SolutionsComponent } from './components/menu/solutions/solutions.component';
-import { ConsultingComponent } from './components/menu/consulting/consulting.component';
-import { LearnComponent } from './components/menu/learn/learn.component';
-import { SupportComponent } from './components/menu/support/support.component'
+import { FooterComponent } from './components/footer/footer.component';
+
+
 
 
 
@@ -23,10 +22,9 @@ import { SupportComponent } from './components/menu/support/support.component'
     RightCardComponent,
     ProductComponent,
     HomeComponent,
-    SolutionsComponent,
-    ConsultingComponent,
-    LearnComponent,
-    SupportComponent
+    FooterComponent,
+
+
 
 
   ],

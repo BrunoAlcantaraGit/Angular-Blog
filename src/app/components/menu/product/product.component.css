@@ -1,0 +1,8 @@
+.container__card{
+display: flex;
+
+}
+
+.lef-card{
+  margin-left: 10px;
+}

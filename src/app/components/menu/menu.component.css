@@ -1,11 +1,13 @@
 .container__menu{
   margin-top:5px;
+
 }
 
 .list {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content:flex-start;
+
 
 }
 .list li{
@@ -21,4 +23,11 @@ a{
 a:hover{
   color: rgb(211, 214, 17);
   transition: 0.7s;
+}
+.container__menu hr{
+
+  margin-bottom: 0px;
+  margin-top: 10px;
+  height: 0px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-right-card',
@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./right-card.component.css']
 })
 export class RightCardComponent {
-
-
-listItens:string []=['iten1','iten2','iten3', 'iten4','iten5', 'iten6'];
-
+  @Input()
+  cardPhoto:string ='';
+  @Input()
+  conteudo: string='';
 
 }

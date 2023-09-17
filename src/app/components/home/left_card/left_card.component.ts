@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-left-card',
@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./left_card.component.css']
 })
 export class LeftCardComponent {
-
-textoPrincipal: string= 'AWS Permission Manage Reimagined'
-buttton: string = 'Book a Demo'
+@Input()
+imagemContPrincipal: string= '';
+@Input()
+conteudo:string = ''
 }
